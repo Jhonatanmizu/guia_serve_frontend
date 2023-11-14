@@ -8,13 +8,13 @@ describe('<Main/>', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /React avançado/i
+        name: /TERMOS DE USO DA PLATAFORMA GUIA SERVE/i
       })
     ).toBeDefined()
     expect(container.firstChild).toMatchSnapshot()
   })
   it('should render the colors correctly', () => {
     const { container } = render(<Main />)
-    expect(container.firstChild).toHaveStyleRule('background-color', '#06092b')
+    expect(container.firstChild).toHaveStyleRule('background-color', '#ffca17')
   })
 })
