@@ -2,10 +2,7 @@ import React from 'react'
 // Styles
 import * as S from './styles'
 
-const Main = ({
-  title = 'React Avançado',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components'
-}) => {
+const Main = () => {
   return (
     <S.Wrapper>
       <S.CenteredWrapper>
